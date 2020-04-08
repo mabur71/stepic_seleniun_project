@@ -29,7 +29,7 @@ pytest==5.4.1
 python-dateutil==2.8.1
 pytz==2019.3
 pywin32==220
-requests==2.12.4
+requests==2.20.0
 selenium==3.14.0
 six==1.10.0
 soupsieve==1.9.5
