@@ -14,3 +14,6 @@ class ProductPageLocators:
     #MSG_PRODUCT_ADD_BASKET = (By.CSS_SELECTOR, ".alert:nth-child(1) .alertinner strong")
     ADD_TO_BASKET_MESSAGE = (By.CSS_SELECTOR, "div.alertinner > strong")
     SUCCESS_MESSAGE = (By.XPATH, '//div[contains(@class, "alert-success")]/div[contains(@class,"alertinner")]')
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
